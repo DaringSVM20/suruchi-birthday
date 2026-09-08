@@ -20,6 +20,9 @@ body,
   height: 100%;
   margin: 0;
   overflow: hidden;
+  position: fixed;      /* new */
+  inset: 0;               /* new */
+  overscroll-behavior: none;  /* new — stops Safari's rubber-band scroll */
 }
 
 body {
